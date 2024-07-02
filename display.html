@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Display</title>
+    <style>
+      body {
+        padding: 0;
+        margin: 0;
+        background-color: #FFDA78;
+      }
+
+      img {
+        height: 50px;
+        width: auto;
+        padding-left: 10px;
+      }
+      .container {
+        background-color:#003285;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 20px;
+      }
+      .navbar {
+        background-color: FF7F3E;
+        text-decoration: none;
+        display: flex;
+      }
+      ul {
+        display: flex;
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        padding-right: 10px;
+      }
+
+      li {
+        margin-left: 20px;
+      }
+      a {
+        text-decoration: none;
+        color: #FFDA78;
+        font-size: large;
+        font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+      }
+      .about {
+        display: flex;
+        flex-wrap: wrap;
+        height: 580px;
+      }
+
+      .content {
+        width: 200px;
+        background-color:#003285;
+        border: 2px solid #2A629A;
+        padding: 10px;
+        margin: 20px;
+        flex-direction: row;
+        height:250px;
+        color: wheat;
+      }
+
+      .footer {
+        background-color: #003285;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <img src="fandi.jpeg" alt="" />
+      <nav class="navbar">
+        <ul>
+          <li><a href="">HOME</a></li>
+          <li><a href="">ABOUT</a></li>
+          <li><a href="">CONTACT</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="about">
+      <div class="content">
+        <h1>content 1</h1>
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magni,
+          aperiam doloremque voluptatem neque corrupti porro laboriosam
+          voluptatibus vero, necessitatibus officia sequi distinctio provident
+          et impedit harum voluptate in beatae magnam.
+        </p>
+      </div>
+      <div class="content">
+        <h1>content 2</h1>
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magni,
+          aperiam doloremque voluptatem neque corrupti porro laboriosam
+          voluptatibus vero, necessitatibus officia sequi distinctio provident
+          et impedit harum voluptate in beatae magnam.
+        </p>
+      </div>
+      <div class="content">
+        <h1>content 3</h1>
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magni,
+          aperiam doloremque voluptatem neque corrupti porro laboriosam
+          voluptatibus vero, necessitatibus officia sequi distinctio provident
+          et impedit harum voluptate in beatae magnam.
+        </p>
+      </div>
+    </div>
+    <div class="footer">
+      <ul>
+        <li><img src="" alt=""></li>
+        <li><img src="" alt=""></li>
+        <li><img src="" alt=""></li>
+      </ul>
+    </div>
+  </body>
+</html>
