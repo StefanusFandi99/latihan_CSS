@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+     body {
+        padding: 0;
+        margin: 0;
+        background-color: #FFDA78;
+      }
+    
+      .container2 {
+        display: flex;
+        flex-direction: row;
+      }
+      .content2 {
+        background-color: aqua;
+        margin: 5px;
+        padding: 1px;
+        border: 1px solid #003285;
+        
+      }
+      .small {
+        flex-basis: 300px;
+        flex-shrink: 0;
+      }
+
+      .large {
+        flex-shrink: 0;
+      }
+
+  </style>
+  <body>
+
+    <div class="container2">
+        <div class="content2 small">A</div>
+        <div class="content2 large">B</div>
+        <div class="content2 large">C</div>
+        <div class="content2 small">D</div>
+    </div>
+  </body>
+</html>
